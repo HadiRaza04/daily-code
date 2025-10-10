@@ -11,3 +11,6 @@ function bubbleSort(arr) {
     return arr;
 }
 console.log(bubbleSort([9, 4, 1, 2, 6, 8, 0, 2]));
+
+// Worst: O(n²)
+// Best: O(n) (if already sorted)
