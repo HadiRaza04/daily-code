@@ -16,3 +16,20 @@ function removeDuplicates(str) {
     return result
 }
 console.log(removeDuplicates("aga"));
+
+// Same logic for array
+function rem(arr) {
+    let d = []
+    for(let i in arr) {
+        let have = false;
+        for(let j in arr) {
+            if(arr[i] == d[j]){
+                have = true
+                break
+            }
+        }
+        if(!have) d.push(arr[i])
+    }
+    return d
+}
+console.log(rem(["a", "b", "b", "c", "a"]));
