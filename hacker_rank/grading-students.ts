@@ -15,3 +15,4 @@ function gradingStudents(grades: number[]): number[] {
     return grades;
 }
 console.log(gradingStudents([12, 45, 23, 76, 90, 43, 98, 36])); // [12, 45, 23, 76, 90, 45, 100, 36]
+console.log(gradingStudents([12, 45, 2, 76, 90, 73, 98, 36])); // [12, 45, 2, 76, 90, 75, 100, 36]
